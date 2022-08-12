@@ -1,4 +1,8 @@
-# Setup udacity workspace
+# One-line setup
+curl https://raw.githubusercontent.com/brijs/udacity-self-driving/main/scripts/bootstrap_udacity.sh | sh
+
+# Manual steps
+## Setup udacity workspace
 
 - copy [code_udacity.sh](code_udacity.sh) in `/home/workspace`
 ```bash
