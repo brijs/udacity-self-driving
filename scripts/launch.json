@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: loop_over_dataset File",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/workspace/loop_over_dataset.py",
+            "console": "integratedTerminal",
+            "variablePresentation": {
+                "function": "hide",
+                "special": "hide",
+                "protected": "hide"
+            }
+        },
+        {
             "name": "Python: basic_loop File",
             "type": "python",
             "request": "launch",
@@ -13,7 +25,7 @@
             "variablePresentation": {
                 "function": "hide",
                 "special": "hide",
-                "protected": "hide",
+                "protected": "hide"
             }
         }
         
