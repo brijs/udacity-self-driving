@@ -19,6 +19,11 @@ curl -s https://raw.githubusercontent.com/brijs/udacity-self-driving/main/script
 mkdir -p /home/workspace/.vscode/user-data/User
 curl -s https://raw.githubusercontent.com/brijs/udacity-self-driving/main/scripts/user_data_user_settings.json --output /home/workspace/.vscode/user-data/User/settings.json || echo "FAILED: installing user-data settings.json"
 
+# initialize git config
+echo "Copying git config & alias"
+mkdir -p /home/workspace/.git
+curl -s  -s https://raw.githubusercontent.com/brijs/udacity-self-driving/main/scripts/git_config --output /home/workspace/.git/config
+
 echo "Done"
 echo "\n"
 echo " Run the following to launch vs code"
